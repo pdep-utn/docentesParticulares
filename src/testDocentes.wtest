@@ -1,0 +1,45 @@
+import docentes.*
+import alumnos.*
+
+//describe "test de nico" {
+//	test "costo por dar clase depende de la materia" {
+//		// assert
+//		assert.equals(400, nico.costoClase("historia"))
+//	}
+//	
+//	test "alumne que le cae bien" {
+//		// assert		
+//		assert.that(nico.meCaeBien(lucas))
+//	}
+//	
+//	test "alumne que no le cae bien" {
+//		// arrange
+//		const alumneQueNoEstudiaFisica = object {
+//			method estudia(unaMateria) = false
+//		}
+//		// assert
+//		assert.notThat(nico.meCaeBien(alumneQueNoEstudiaFisica))
+//	}
+//}
+
+describe "test de camila" {
+	only test "costo de clase con camila de mal humor" {
+		// act
+		camila.encularse()
+		// assert		
+		assert.equals(700, camila.costoClase("historia"))
+	}
+
+	test "costo de clase con camila de buen humor" {
+		// assert		
+		assert.equals(250, camila.costoClase("historia"))
+	}
+}
+//
+// Arrange
+// Act
+// Assert
+
+
+
+

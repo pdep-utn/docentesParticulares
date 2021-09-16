@@ -34,3 +34,5 @@ object instituto {
 		docentes.filter({ docente => docente.meCaeBien(alumno) })
 
 }
+
+
